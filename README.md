@@ -26,11 +26,8 @@ To test the application I used AGL's FY23 TCFD Report
 
 [<img width="200px" src="./Assets/Images/AGL_TCFD_Report.png" />](https://www.agl.com.au/content/dam/digital/agl/documents/about-agl/investors/2023/230810-agl-energy-tcfd-report-2023-5-5.pdf])
 
-
 #### TCFD Web App - UI
 ![Example Image](./Assets/Images/TCFD_Demo_1.png)
-
-https://github.com/WIVIV/TCFD_Local_LLM/blob/main/Assets/Images/TCFD_Demo_1.png
 
 #### TCFD Web App - 11 Questions
 ![Example Image](./Assets/Images/TCFD_Demo_11_Questions.png)
@@ -43,11 +40,6 @@ https://github.com/WIVIV/TCFD_Local_LLM/blob/main/Assets/Images/TCFD_Demo_1.png
 
 #### TCFD Web App - Question 2: Answers and Source Text Used
 ![Example Image](./Assets/Images/TCFD_Demo_Q2_sources.png)
-
-![Example Image](./Assets/Images/llama_smart_5.jpeg)
-
-
-#### [Raw Data by LGA, Postcode and Suburb](./Assets/Excel/lga_postcode_suburb_counts.xlsx)
 
 ### Conclusion
 By leveraging geospatial analysis and utilising diverse datasets, this project successfully assessed the impact of the 2011 Queensland Flood. The findings highlight the most affected LGAs, suburbs, and postcodes. This analysis can serve as a foundation for further studies on climate risk and inform decision-making processes aimed at reducing the impact of future floods in Queensland.
