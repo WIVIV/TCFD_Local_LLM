@@ -2,6 +2,9 @@
 
 ![Example Image](./Assets/Images/llama_smart_5.jpeg  "Prompt to generate artwork: Imagine a futuristic scene set in the year 2050, where a llama, outfitted with sleek and advanced smart goggles, stands confidently with lots of document pages and charts behind him. The goggles display complex holographic data visualizations, projecting intricate patterns and graphs in the air around the llama. The llama exudes an air of intelligence and sophistication, blending seamlessly with the technologically advanced world it inhabits. Capture the essence of this futuristic llama and its technologically enhanced appearance in your vivid artwork.")
 <span style="vertical-align: baseline; position: relative;top: -0.5em;>Hover over image to see prompt used to generate it.</span>
+<span style="vertical-align: baseline; position: relative;top: -0.5em;>text in superscript</span>
+
+
 
 ### Summary
 For this project I wanted to explore running an LLM locally to analyse a set of locally hosted documents and answer a series of questions. This implementation allows one to use sophisticated AI models privately, without having to use APIs or send data outside your local network. To ground it a practical use case, I built a Streamlit web application to automate analysis of TCFD (Task Force on Climate-related Financial Disclosures) Reports. I used [Meta's Llama2 model](https://ai.meta.com/llama/) and RAG to analyse the TCFD reports through answering a set of 11 predefined questions. The app also displays the source text from the TCFD report (including the page number) that was passed to the LLM to answer each of the questions, thereby increasing the level of confidence in the accuracy of the answers.
