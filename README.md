@@ -1,6 +1,9 @@
 ## TCFD Report Analysis using a Local Large Language Model (LLM) and Retrieval Augmented Generation (RAG)
 
-![Example Image](./Assets/Images/llama_smart_5.jpeg)
+![Example Image](./Assets/Images/llama_smart_5.jpeg "This is a tooltip :)")
+
+[Hover your mouse here to see the tooltip](https://stackoverflow.com/a/71729464/11465149 "This is a tooltip :)")
+
 
 ### Summary
 For this project I wanted to explore running an LLM locally to analyse a set of locally hosted documents and answer a series of questions. This implementation allows one to use sophisticated AI models privately, without having to use APIs or send data outside your local network. To ground it a practical use case, I built a Streamlit web application to automate analysis of TCFD (Task Force on Climate-related Financial Disclosures) Reports. I used [Meta's Llama2 model](https://ai.meta.com/llama/) and RAG to analyse the TCFD reports through answering a set of 11 predefined questions. The app also displays the source text from the TCFD report (including the page number) that was passed to the LLM to answer each of the questions, thereby increasing the level of confidence in the accuracy of the answers.
