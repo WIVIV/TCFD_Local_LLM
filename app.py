@@ -12,9 +12,10 @@ from langchain.chains import RetrievalQA
 from langchain.retrievers import ContextualCompressionRetriever
 from langchain.retrievers.document_compressors import LLMChainExtractor
 
-#vector store
+#Create Vector store
 db_path = r'vectorstore\db_faiss'
 
+#Function to clear vector Store on every run. 
 def delete_files_in_directory(directory_path):
     files=os.listdir(directory_path)
     for file in files:
@@ -23,26 +24,26 @@ def delete_files_in_directory(directory_path):
             os.remove(file_path)
 delete_files_in_directory(db_path)
 
-#StreamLit - image file paths
-image = Image.open(r'images\image.jpg')
-favicon = Image.open(r'images\favicon.png')
+#Streamlit - image file paths
+image = Image.open(r"images\image.jpg")
+favicon = Image.open(r"images\favicon.png")
 
-#StreamLit - Page title
-st.set_page_config(page_title='TCFD Disclosure Analyser',
+#Streamlit - Page title
+st.set_page_config(page_title="TCFD Report Analyser",
                    page_icon=favicon,
-                   initial_sidebar_state='collapsed',
-                   layout='wide'
+                   initial_sidebar_state="collapsed",
+                   layout="wide"
                    )
 st.image(image, width=1500)
-st.title('TCFD Disclosure Analyser ')
+st.title("TCFD Disclosure Analyser")
 
-#StreamLit - file upload
+#Streamlit - file upload
 uploaded_files = st.sidebar.file_uploader("Upload your pdf Documents", accept_multiple_files=True, type="pdf")
 
-#StreamLit - TCFD Overview
+#Streamlit - TCFD Overview
 st.write("[TCFD Overview](https://assets.bbhub.io/company/sites/60/2022/12/tcfd-2022-overview-booklet.pdf)")
 
-#StreamLit - tabs
+#Streamlit - Tabs
 tab1, tab2 = st.tabs(["TCFD Questions","Custom Questions"])
 
 #Local LLM
@@ -56,9 +57,10 @@ def load_llm():
     )
     return llm
 
+#Function to generate LLM responses when button is clicked in ST App
 def generate_response(uploaded_files, llm, query_text):
     if uploaded_files is not None:
-        #read docs
+        #Read pdf docs uploaded in ST app
         docs = []
         temp_dir = tempfile.TemporaryDirectory()
         for file in uploaded_files:
@@ -107,24 +109,16 @@ q8 = "Describe how processes for identifying, assessing, and managing climate-re
 q9 = "Describe the metrics used by the organisation to assess climate-related risks and opportunities in line with its strategy and risk management process."
 q10 ="Detail the Scope 1, Scope 2, and, if appropriate, Scope 3 greenhouse gas (GHG) emissions, and the related risks."
 q11 ="Describe the targets used by the organisation to manage climate-related risks and opportunities and performance against targets."
-
 questions=[q1,q2,q3,q4,q5,q6,q7,q8,q9,q10,q11]
 
-
+#Funciton to display source docs in ST App
 def pretty_print_docs(docs):
     print(f"\n{'-' * 100}\n".join([f"Document {i+1}:\n\n\ " + d.page_content for i, d in enumerate(docs)]))
 
 #TCFD LLM Responses
 with tab1:
     if st.button('Generate TCFD Resppnses', disabled=not(uploaded_files)):
-        #company_name=generate_response(uploaded_files, load_llm, 'What is the name of the company that the report written about? Please just return the name of the company.')
-        #company_name_reposnse=company_name['result']
-        #q1 = f"What are {company_name_reposnse}'s GHG Emissions, including Scope 1, Scope 2, and Scope 3 emissions intensity? Please provide figures in your answer"
-        #q2 = f"Summarise the amount and extent of {company_name_reposnse}'s assets or business activities vulnerable to transition risks"
-        #q3 = f"Summarise the amount and extent of {company_name_reposnse}'s assets or business activities vulnerable to physical risks"
-        #questions={'q1':q1, 'q2':q2, 'q3':q3}
         for question in questions:
-            #st.write(company_name_reposnse)
             st.write(f"{question}")
             with st.spinner('Processing...'):
                 response = generate_response(uploaded_files, load_llm, question)
