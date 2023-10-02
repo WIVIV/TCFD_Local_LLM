@@ -37,7 +37,7 @@ To practially test the app I used AGL's FY23 TCFD Report. [AGL is Australia's la
 ![Example Image](./Assets/Images/TCFD_Demo_Custom_Questions.png)
 
 ### Conclusion
-By leveraging a local LLM and RAG, this project successfully analysed AGL's TCFD report by answering 11 preset questions. The quality of the repsonses and the quoting of the sources used, clearly demostrates the utility and effiecincy gain that this implementation of LLMs provides. 
+By leveraging a local LLM and RAG, this project successfully analysed AGL's TCFD report by answering 11 preset questions. The quality of the repsonses and the quoting of the sources used, clearly demostrates the utility and effiecincy gain that this implementation of LLM technology provides. 
 
 #### Key Libraries and Resources Used:
 - [LangChain🦜️🔗](https://www.langchain.com/)
