@@ -22,7 +22,10 @@ To conduct the analysis, I utilised a combination of geospatial datasets. The 20
 By intersecting the flood extent shapefile with the cadastral dataset, I identified the properties within the flood-affected areas. Using the addresses from the GNAF Core dataset (joined on Land Parcel ID), I determined the LGAs, suburbs, and postcodes associated with these properties. This allowed me to quantify the impact of the flood at a per property level and identify the most affected areas.
 
 ### Example
-To test the application I used [![AGL's FY23 TCFD Report](./Assets/Images/AGL_TCFD_Report.png)](https://www.agl.com.au/content/dam/digital/agl/documents/about-agl/investors/2023/230810-agl-energy-tcfd-report-2023-5-5.pdf){:height="100px" width="100px"}
+To test the application I used AGL's FY23 TCFD Report [![AGL's FY23 TCFD Report](./Assets/Images/AGL_TCFD_Report.png)](https://www.agl.com.au/content/dam/digital/agl/documents/about-agl/investors/2023/230810-agl-energy-tcfd-report-2023-5-5.pdf){:height="100px" width="100px"}
+
+[![Image Alt Text](image_url)](link_url){:height="100px" width="100px"}
+
 
 #### Pie Chart of Impacted LGAs
 ![Example Image](./Assets/Images/count_by_lga_pie.png)
