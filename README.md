@@ -28,19 +28,19 @@ To test the application I used AGL's FY23 TCFD Report
 
 
 #### TCFD Web App - UI
-![Example Image](./Assets/Images/count_by_lga_pie.png)
+![Example Image](./Assets/Images/TCFD_Demo_1.png)
 
 #### TCFD Web App - 11 Questions
-![Example Image](./Assets/Images/count_by_lga_bar.png)
+![Example Image](./Assets/Images/TCFD_Demo_11_Questions.png)
 
 #### TCFD Web App - Custom Questions
-![Example Image](./Assets/Images/count_by_postcode_bar.png)
+![Example Image](./Assets/Images/TCFD_Demo_Custom_Questions.png)
 
 #### TCFD Web App - Question 1: Answers and Source Text Used
-![Example Image](./Assets/Images/count_by_suburb_bar.png)
+![Example Image](./Assets/Images/TCFD_Demo_Q1_sources.png)
 
 #### TCFD Web App - Question 2: Answers and Source Text Used
-![Example Image](./Assets/Images/map_4064.png)
+![Example Image](./Assets/Images/TCFD_Demo_Q2_sources.png)
 
 
 #### [Raw Data by LGA, Postcode and Suburb](./Assets/Excel/lga_postcode_suburb_counts.xlsx)
