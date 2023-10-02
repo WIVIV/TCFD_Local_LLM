@@ -16,7 +16,7 @@ RAG is a framework for improving the quality of LLM generated responses by groun
 2. Users have access to the model's sources (Retrieval QA Chain in the diagram above), ensuring that the LLM responses can be checked for accuracy against the source documents.
 
 ## TCFD Report Analysis Questions
-In order to determine the questions used to analyse the reports I utilised the [TCFD’s disclosure recommendations](https://assets.bbhub.io/company/sites/60/2020/10/FINAL-2017-TCFD-Report-11052018.pdf) (across the four topics of governance, strategy, risk management, and metrics and targets) which were summaried in this [Deloitte article](https://www2.deloitte.com/ch/en/pages/risk/articles/tcfd-and-why-does-it-matter.html) into the following 11 items:
+In order to determine the questions used to analyse the reports I utilised the [TCFD’s disclosure recommendations](https://assets.bbhub.io/company/sites/60/2020/10/FINAL-2017-TCFD-Report-11052018.pdf) (across the four topics of governance, strategy, risk management, and metrics and targets) which were summarised in this [Deloitte article](https://www2.deloitte.com/ch/en/pages/risk/articles/tcfd-and-why-does-it-matter.html) into the following 11 items:
 ![image](https://github.com/WIVIV/TCFD_Local_LLM/assets/22553721/eb349ad1-97b5-4f42-86b1-f84882d23efd)
 
 ### Testing the App on AGL's FY23 TCFD Report
