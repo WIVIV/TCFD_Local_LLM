@@ -1,4 +1,4 @@
-## TCFD Report Analysis using and LLM and Retrieval Augmented Generation
+## TCFD Report Analysis using a Large Language Model and Retrieval Augmented Generation
 
 ![Example Image](./Assets/Images/llama_smart_5.jpeg)
 
