@@ -1,4 +1,4 @@
-## TCFD Report Analysis Web Application using Retrieval Augmented Generation![image](https://github.com/WIVIV/TCFD_Local_LLM/assets/22553721/ac561917-0915-4ef6-9ed5-bacea21f8123)
+## TCFD Report Analysis using and LLM and Retrieval Augmented Generation
 
 ![Example Image](./Assets/Images/llama_smart_5.jpeg)
 
