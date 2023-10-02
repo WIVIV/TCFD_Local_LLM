@@ -26,28 +26,20 @@ To test the application I used AGL's FY23 TCFD Report
 
 [<img width="200px" src="./Assets/Images/AGL_TCFD_Report.png" />](https://www.agl.com.au/content/dam/digital/agl/documents/about-agl/investors/2023/230810-agl-energy-tcfd-report-2023-5-5.pdf])
 
-<img src="drawing.jpg" alt="drawing" width="200"/>
 
-[![AGL's FY23 TCFD Report](./Assets/Images/AGL_TCFD_Report.png){:height="10px" width="10px"}](https://www.agl.com.au/content/dam/digital/agl/documents/about-agl/investors/2023/230810-agl-energy-tcfd-report-2023-5-5.pdf)
-
-[![Image](https://example.com/image.jpg){:width="200px" height="200px"}](https://example.com/link-to-image)
-
-[![Image Alt Text](image_url)](link_url){:height="100px" width="100px"}
-
-
-#### Pie Chart of Impacted LGAs
+#### TCFD Web App - UI
 ![Example Image](./Assets/Images/count_by_lga_pie.png)
 
-#### Impacted LGAs
+#### TCFD Web App - 11 Questions
 ![Example Image](./Assets/Images/count_by_lga_bar.png)
 
-#### Impacted Postcodes
+#### TCFD Web App - Custom Questions
 ![Example Image](./Assets/Images/count_by_postcode_bar.png)
 
-#### Impacted Suburbs
+#### TCFD Web App - Question 1: Answers and Source Text Used
 ![Example Image](./Assets/Images/count_by_suburb_bar.png)
 
-#### Impacted Properties in Postcode 4064
+#### TCFD Web App - Question 2: Answers and Source Text Used
 ![Example Image](./Assets/Images/map_4064.png)
 
 
