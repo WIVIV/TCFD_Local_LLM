@@ -23,11 +23,8 @@ To practially test the application I used AGL's FY23 TCFD Report. [AGL is Austra
 
 [<img width="200px" src="./Assets/Images/AGL_TCFD_Report.png" />](https://www.agl.com.au/content/dam/digital/agl/documents/about-agl/investors/2023/230810-agl-energy-tcfd-report-2023-5-5.pdf])
 
-#### TCFD Web App - Responses to the first 
+#### TCFD Web App - Responses to the first two questions
 ![Example Image](./Assets/Images/TCFD_Demo_1.png)
-
-#### TCFD Web App - 11 Questions
-![Example Image](./Assets/Images/TCFD_Demo_11_Questions.png)
 
 #### TCFD Web App - Question 1: Answers and Source Text Used
 ![Example Image](./Assets/Images/TCFD_Demo_Q1_sources.png)
@@ -35,7 +32,7 @@ To practially test the application I used AGL's FY23 TCFD Report. [AGL is Austra
 #### TCFD Web App - Question 2: Answers and Source Text Used
 ![Example Image](./Assets/Images/TCFD_Demo_Q2_sources.png)
 
-#### TCFD Web App - Custom Questions
+#### TCFD Web App - Users Also Have the Ability to Ask Custom Questions
 ![Example Image](./Assets/Images/TCFD_Demo_Custom_Questions.png)
 
 ### Conclusion
