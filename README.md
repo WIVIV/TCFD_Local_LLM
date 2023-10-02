@@ -40,9 +40,13 @@ By leveraging a local LLM and RAG, this project successfully analysed AGL's TCFD
 
 Key Libraries and Resources Used:
 [LangChain🦜️🔗](https://www.langchain.com/)
+
 [Meta - Llama2](https://huggingface.co/meta-llama)
+
 [Streamlit](https://streamlit.io/)
+
 [HuggingFace🤗](https://huggingface.co/)
+
 [TheBloke - HuggingFace](https://huggingface.co/TheBloke)
 
 
