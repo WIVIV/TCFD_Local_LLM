@@ -3,14 +3,20 @@
 ![Example Image](./Assets/Images/llama_smart_5.jpeg)
 
 ### Summary
-In this project I built a StreamLit web application to automate TCFD (Task Force on Climate-related Financial Disclosures) Report Analysis. I use [Meta's Llama2 model](https://ai.meta.com/llama/) and Retrieval Augmented Generation to analyse the PDFs of published TCFD reports and answer a predefined set of 11 questions. The app also displays the source text from the TCFD report and the page number that was passed to the LLM to answer each of the questions, thereby increasing the level of confidence in the veracity of the answers.
+For this project I built a StreamLit web application to automate TCFD (Task Force on Climate-related Financial Disclosures) Report Analysis. I used [Meta's Llama2 model](https://ai.meta.com/llama/) and RAG to analyse the TCFD reports and answer a set of 11 predefined questions. The app also displays the source text from the TCFD report (including the page number) that was passed to the LLM to answer each of the questions, thereby increasing the level of confidence in the veracity of the answers.
 
 ### TCFD Overview
 The Task Force on Climate-related Financial Disclosures (TCFD) provides a framework to help companies disclose climate-related information to their stakeholders. TCFD reports are pivotal tools that allow organizations to transparently convey their climate-related risks, opportunities, and strategies to stakeholders. Analyzing these reports helps in comprehending a company's climate impact, sustainability efforts, and overall readiness to navigate the challenges posed by climate change.
 
-### Local LLM using Llama2
-In
+### RAG
+Retrieval Augmented Generation (RAG) is a natural language processing (NLP) approach that combines elements of both retrieval-based models and generative models to improve the quality and relevance of generated text. This approach aims to address the limitations of traditional LLMs models by incorporating a retrieval mechanism.
+Key components of RAG are as follows:
+1.	Retrieval Component: In the retrieval-based component of RAG, a pdf document is loaded,  or corpus of text is indexed, and when given a specific query or prompt, it retrieves relevant passages or documents from this corpus. The retrieval system helps identify and gather information that is pertinent to the context.
+2.	Generation Component: The generative component, often based on models like GPT (Generative Pre-trained Transformer), generates text based on the retrieved information and the original query or prompt. It utilizes the retrieved content to inform and improve the generation process, ensuring the produced text is coherent, relevant, and contextually accurate.
+3.	Integration of Retrieval and Generation: RAG seamlessly integrates these two components. Initially, it retrieves relevant information based on the input query. Subsequently, it employs this retrieved information to guide and enhance the generative process, enabling the generation of more informed and contextually appropriate responses.
+4.	Fine-tuning and Training: The model is fine-tuned using a combination of supervised learning, where the model is trained on human-generated responses, and reinforcement learning, where the model learns from its own generated responses to improve over time.
 The benefit of RAG is that it helps overcome the issues of traditional generative models, like producing inaccurate or irrelevant responses. By leveraging the retrieval mechanism to provide a foundation of relevant information, the generative component can refine its output, ensuring the text generated is not only fluent and coherent but also aligned with the retrieved information.
+![image](https://github.com/WIVIV/TCFD_Local_LLM/assets/22553721/610e2261-bb28-4481-b63c-936999c5fa71)
 
 
 ### Background
