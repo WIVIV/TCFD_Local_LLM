@@ -3,7 +3,7 @@
 ![Example Image](./Assets/Images/llama_smart_5.jpeg)
 
 ### Summary
-In this project I built a StreamLit web application to automate TCFD (Task Force on Climate-related Financial Disclosures) Report Analysis. I use [Meta's Llama2 model](https://ai.meta.com/llama/)and Retrieval Augmented Generation to analyse the PDFs of published TCFD reports and answer a predefined set of 11 questions. The app also displays the source text from the TCFD report and the page number that was passed to the LLM to answer each of the questions, thereby increasing the level of confidence in the veracity of the answers.
+In this project I built a StreamLit web application to automate TCFD (Task Force on Climate-related Financial Disclosures) Report Analysis. I use [Meta's Llama2 model](https://ai.meta.com/llama/) and Retrieval Augmented Generation to analyse the PDFs of published TCFD reports and answer a predefined set of 11 questions. The app also displays the source text from the TCFD report and the page number that was passed to the LLM to answer each of the questions, thereby increasing the level of confidence in the veracity of the answers.
 
 ### TCFD Overview
 The Task Force on Climate-related Financial Disclosures (TCFD) provides a framework to help companies disclose climate-related information to their stakeholders. TCFD reports are pivotal tools that allow organizations to transparently convey their climate-related risks, opportunities, and strategies to stakeholders. Analyzing these reports helps in comprehending a company's climate impact, sustainability efforts, and overall readiness to navigate the challenges posed by climate change.
