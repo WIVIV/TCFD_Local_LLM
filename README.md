@@ -1,13 +1,17 @@
-## TCFD Report Analysis using a Large Language Model and Retrieval Augmented Generation
+## TCFD Report Analysis using a Local Large Language Model (LLM) and Retrieval Augmented Generation (RAG)
 
 ![Example Image](./Assets/Images/llama_smart_5.jpeg)
 
 ### Summary
-In this project, I conducted a geospatial analysis of the 2011 Queensland Flood to determine the extent of the flood and identify the properties impacted by this natural disaster. The analysis utilised the following datasets:
-- [2011 Queensland Flood Extent](https://qldspatial.information.qld.gov.au/catalogue/custom/detail.page?fid={C3F4BC07-88B3-410C-904B-957933079AA8)
-- [GNAF Core](https://geoscape.com.au/data/g-naf-core/)
-- [Local government area boundaries - Queensland](https://qldspatial.information.qld.gov.au/catalogue/custom/detail.page?fid={3F3DBD69-647B-4833-B0A5-CC43D5E70699})
-- [Cadastral data weekly - whole of State Queensland - GDA2020](https://qldspatial.information.qld.gov.au/catalogue/custom/detail.page?fid={FF9596F2-7387-4159-96AF-9ED6573ADD10})
+In this project I built a StreamLit web application to automate TCFD (Task Force on Climate-related Financial Disclosures) Report Analysis. I use Meta's Llama2 model and Retrieval Augmented Generation to analyse the PDFs of published TCFD reports and answer a predefined set of 11 questions. The app also displays the source text from the TCFD report and the page number that was passed to the LLM to answer each of the questions, thereby increasing the level of confidence in the veracity of the answers.
+
+### TCFD Overview
+The Task Force on Climate-related Financial Disclosures (TCFD) provides a framework to help companies disclose climate-related information to their stakeholders. TCFD reports are pivotal tools that allow organizations to transparently convey their climate-related risks, opportunities, and strategies to stakeholders. Analyzing these reports helps in comprehending a company's climate impact, sustainability efforts, and overall readiness to navigate the challenges posed by climate change.
+
+### Local LLM using Llama2
+In
+The benefit of RAG is that it helps overcome the issues of traditional generative models, like producing inaccurate or irrelevant responses. By leveraging the retrieval mechanism to provide a foundation of relevant information, the generative component can refine its output, ensuring the text generated is not only fluent and coherent but also aligned with the retrieved information.
+
 
 ### Background
 The 2011 Queensland Flood was a devastating natural disaster that occurred in the state of Queensland, Australia. It was triggered by heavy rainfall associated with a monsoon trough and a tropical low-pressure system, resulting in widespread flooding across several regions. The flood, which lasted from late December 2010 to early 2011, caused significant damage to infrastructure, homes, and agricultural land.
