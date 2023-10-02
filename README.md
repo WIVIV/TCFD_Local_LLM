@@ -36,9 +36,13 @@ To practially test the application I used AGL's FY23 TCFD Report. [AGL is Austra
 ![Example Image](./Assets/Images/TCFD_Demo_Custom_Questions.png)
 
 ### Conclusion
-By leveraging geospatial analysis and utilising diverse datasets, this project successfully assessed the impact of the 2011 Queensland Flood. The findings highlight the most affected LGAs, suburbs, and postcodes. This analysis can serve as a foundation for further studies on climate risk and inform decision-making processes aimed at reducing the impact of future floods in Queensland.
+By leveraging a local LLM and RAG, this project successfully analysed AGL's TCFD report by answering 11 preset questions. The quality of the repsonses and the quoting of the sources used clearly show the utility and effiecincy gain that this implementation provides. 
 
-### Attribution
-- © State of Queensland (Department of Resources) 2023. Updated data available at http://qldspatial.information.qld.gov.au/catalogue// .
-- © PSMA Australia Limited trading as Geoscape Australia. ABN 23 089 912 710. Data available at https://geoscape.com.au/data/g-naf-core/ 
-- OpenStreetMap® is open data, licensed under the Open Data Commons Open Database License (ODbL) by the OpenStreetMap Foundation (OSMF).
+Key Libraries and Resources Used:
+[LangChain🦜️🔗](https://www.langchain.com/)
+[Meta - Llama2](https://huggingface.co/meta-llama)
+[Streamlit](https://streamlit.io/)
+[HuggingFace🤗](https://huggingface.co/)
+[TheBloke - HuggingFace](https://huggingface.co/TheBloke)
+
+
