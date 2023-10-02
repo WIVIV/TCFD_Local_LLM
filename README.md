@@ -24,7 +24,7 @@ To practially test the app I used AGL's FY23 TCFD Report. [AGL is Australia's la
 
 [<img width="200px" src="./Assets/Images/AGL_TCFD_Report.png" />](https://www.agl.com.au/content/dam/digital/agl/documents/about-agl/investors/2023/230810-agl-energy-tcfd-report-2023-5-5.pdf])
 
-#### TCFD Web App - Responses to the first two questions (Users upload the pdf of the TCFD Report then hit the "Generate Responses" button.
+#### TCFD Web App - Responses to the first two questions (Users upload the pdf of the TCFD Report then hit the "Generate TCFD Responses" button.
 ![Example Image](./Assets/Images/TCFD_Demo_1.png)
 
 #### TCFD Web App - Question 1: Answers and Source Text Used
