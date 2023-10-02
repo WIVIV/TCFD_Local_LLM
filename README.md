@@ -9,6 +9,7 @@ For this project I built a StreamLit web application to automate TCFD (Task Forc
 The Task Force on Climate-related Financial Disclosures (TCFD) provides a framework to help companies disclose climate-related information to their stakeholders. TCFD reports are pivotal tools that allow organizations to transparently convey their climate-related risks, opportunities, and strategies to stakeholders. Analyzing these reports helps in comprehending a company's climate impact, sustainability efforts, and overall readiness to navigate the challenges posed by climate change.
 
 ### RAG
+![Example Image](./Assets/Images/RAG.png)
 Retrieval Augmented Generation (RAG) is a natural language processing (NLP) approach that combines elements of both retrieval-based models and generative models to improve the quality and relevance of generated text. This approach aims to address the limitations of traditional LLMs models by incorporating a retrieval mechanism.
 Key components of RAG are as follows:
 1.	Retrieval Component: In the retrieval-based component of RAG, a pdf document is loaded,  or corpus of text is indexed, and when given a specific query or prompt, it retrieves relevant passages or documents from this corpus. The retrieval system helps identify and gather information that is pertinent to the context.
