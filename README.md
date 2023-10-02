@@ -16,22 +16,6 @@ Retrieval Augmented Generation (RAG) is a framework for improving the quality of
 
 ## TCFD Report Analysis Questions
 In order to analyse the reports I utilised the [TCFD’s disclosure recommendations](https://assets.bbhub.io/company/sites/60/2020/10/FINAL-2017-TCFD-Report-11052018.pdf) (across the four topics of governance, strategy, risk management, and metrics and targets) which were summaried in this [Deliotte article](https://www2.deloitte.com/ch/en/pages/risk/articles/tcfd-and-why-does-it-matter.html) into the following 11 items:
-In governance, companies must:
-•	describe the board’s oversight of climate-related risks and opportunities
-•	describe management’s role in assessing and managing climate-related risks and opportunities
-In strategy:
-•	describe the climate-related risks and opportunities the organisation has identified over the short, medium, and long term
-•	describe the impact of climate-related risks and opportunities on the organisation’s businesses, strategy, and financial planning
-•	describe the resilience of the organisation’s strategy, taking into consideration different climate-related scenarios, including a 2°C or lower scenario.
-In risk management:
-•	describe the organisation’s processes for identifying and assessing climate-related risks
-•	describe the organisation’s processes for managing climate-related risks
-•	describe how processes for identifying, assessing, and managing climate-related risks are integrated into the organisation’s overall risk management.
-In metrics and targets:
-•	disclose the metrics used by the organisation to assess climate-related risks and opportunities in line with its strategy and risk management process
-•	disclose Scope 1, Scope 2, and, if appropriate, Scope 3 greenhouse gas (GHG) emissions, and the related risks
-•	describe the targets used by the organisation to manage climate-related risks and opportunities and performance against targets.
-
 ![image](https://github.com/WIVIV/TCFD_Local_LLM/assets/22553721/eb349ad1-97b5-4f42-86b1-f84882d23efd)
 
 
