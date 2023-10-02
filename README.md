@@ -21,8 +21,9 @@ To conduct the analysis, I utilised a combination of geospatial datasets. The 20
 
 By intersecting the flood extent shapefile with the cadastral dataset, I identified the properties within the flood-affected areas. Using the addresses from the GNAF Core dataset (joined on Land Parcel ID), I determined the LGAs, suburbs, and postcodes associated with these properties. This allowed me to quantify the impact of the flood at a per property level and identify the most affected areas.
 
-### Findings
-The 2011 Queensland Flood impacted a significant number of properties across multiple LGAs, postcodes and suburbs. 
+### Example
+To test the application I used [AGL's FY23 TCFD Report](https://www.agl.com.au/content/dam/digital/agl/documents/about-agl/investors/2023/230810-agl-energy-tcfd-report-2023-5-5.pdf)
+
 
 #### Pie Chart of Impacted LGAs
 ![Example Image](./Assets/Images/count_by_lga_pie.png)
