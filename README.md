@@ -10,18 +10,9 @@ The Task Force on Climate-related Financial Disclosures (TCFD) provides a framew
 
 ### RAG
 ![Example Image](./Assets/Images/RAG.png)
-Retrieval Augmented Generation (RAG) is a natural language processing (NLP) approach that combines elements of both retrieval-based models and generative models to improve the quality and relevance of generated text. This approach aims to address the limitations of traditional LLMs models by incorporating a retrieval mechanism.
-Key components of RAG are as follows:
-1.	Retrieval Component: In the retrieval-based component of RAG, a pdf document is loaded,  or corpus of text is indexed, and when given a specific query or prompt, it retrieves relevant passages or documents from this corpus. The retrieval system helps identify and gather information that is pertinent to the context.
-2.	Generation Component: The generative component, often based on models like GPT (Generative Pre-trained Transformer), generates text based on the retrieved information and the original query or prompt. It utilizes the retrieved content to inform and improve the generation process, ensuring the produced text is coherent, relevant, and contextually accurate.
-3.	Integration of Retrieval and Generation: RAG seamlessly integrates these two components. Initially, it retrieves relevant information based on the input query. Subsequently, it employs this retrieved information to guide and enhance the generative process, enabling the generation of more informed and contextually appropriate responses.
-4.	Fine-tuning and Training: The model is fine-tuned using a combination of supervised learning, where the model is trained on human-generated responses, and reinforcement learning, where the model learns from its own generated responses to improve over time.
-The benefit of RAG is that it helps overcome the issues of traditional generative models, like producing inaccurate or irrelevant responses. By leveraging the retrieval mechanism to provide a foundation of relevant information, the generative component can refine its output, ensuring the text generated is not only fluent and coherent but also aligned with the retrieved information.
-
-
-
-### Background
-The 2011 Queensland Flood was a devastating natural disaster that occurred in the state of Queensland, Australia. It was triggered by heavy rainfall associated with a monsoon trough and a tropical low-pressure system, resulting in widespread flooding across several regions. The flood, which lasted from late December 2010 to early 2011, caused significant damage to infrastructure, homes, and agricultural land.
+Retrieval Augmented Generation (RAG) is an framework for improving the quality of LLM generated responses by grounding the LLM in a private knowledge base (Embedding Model and Vectore DB in the diagram above). Two main advatedges of RAG are:
+1. Users can ingest the most authoritative and current source documents to deliver better factual consistency and improve the reliability of the generated responses.
+2. Users have access to the model's sources (Retreival QA Chain in the diagram above), ensuring that the LLM responses can be checked for accuracy against the source documnets.
 
 ### Methodology
 To conduct the analysis, I utilised a combination of geospatial datasets. The 2011 flood extent shapefile provided information about the geographic extent of the flood. The GNAF Core dataset, which contains detailed geocoded addresses, enabled me to associate properties with their respective locations. The Queensland Cadastral dataset provided information on property boundaries, while the Local Government dataset contained administrative boundaries for LGAs.
