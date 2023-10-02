@@ -39,14 +39,11 @@ To practially test the application I used AGL's FY23 TCFD Report. [AGL is Austra
 By leveraging a local LLM and RAG, this project successfully analysed AGL's TCFD report by answering 11 preset questions. The quality of the repsonses and the quoting of the sources used clearly show the utility and effiecincy gain that this implementation provides. 
 
 Key Libraries and Resources Used:
-[LangChain🦜️🔗](https://www.langchain.com/)
 
-[Meta - Llama2](https://huggingface.co/meta-llama)
-
-[Streamlit](https://streamlit.io/)
-
-[HuggingFace🤗](https://huggingface.co/)
-
-[TheBloke - HuggingFace](https://huggingface.co/TheBloke)
+- [LangChain🦜️🔗](https://www.langchain.com/)
+- [Meta - Llama2](https://huggingface.co/meta-llama)
+- [Streamlit](https://streamlit.io/)
+- [HuggingFace🤗](https://huggingface.co/)
+- [TheBloke - HuggingFace](https://huggingface.co/TheBloke)
 
 
