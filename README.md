@@ -2,7 +2,7 @@
 
 ![Example Image](./Assets/Images/llama_smart_5.jpeg "This is a tooltip :)")
 
-[Hover your mouse here to see the tooltip](https://stackoverflow.com/a/71729464/11465149 "This is a tooltip :)")
+[Hover your mouse here to see the tooltip](https://stackoverflow.com/a/71729464/11465149 "Prompt to generate artwork: Imagine a futuristic scene set in the year 2050, where a llama, outfitted with sleek and advanced smart goggles, stands confidently with lots of document pages and charts behind him. The goggles display complex holographic data visualizations, projecting intricate patterns and graphs in the air around the llama. The llama exudes an air of intelligence and sophistication, blending seamlessly with the technologically advanced world it inhabits. Capture the essence of this futuristic llama and its technologically enhanced appearance in your vivid artwork.")
 
 
 ### Summary
