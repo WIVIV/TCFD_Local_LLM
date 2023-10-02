@@ -42,6 +42,8 @@ To test the application I used AGL's FY23 TCFD Report
 #### TCFD Web App - Question 2: Answers and Source Text Used
 ![Example Image](./Assets/Images/TCFD_Demo_Q2_sources.png)
 
+![Example Image](./Assets/Images/llama_smart_5.jpeg)
+
 
 #### [Raw Data by LGA, Postcode and Suburb](./Assets/Excel/lga_postcode_suburb_counts.xlsx)
 
