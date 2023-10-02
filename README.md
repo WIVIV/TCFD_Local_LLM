@@ -14,12 +14,35 @@ Retrieval Augmented Generation (RAG) is a framework for improving the quality of
 1. Users can ingest the most authoritative and current source documents to deliver better factual consistency and improve the reliability of the generated responses.
 2. Users have access to the model's sources (Retrieval QA Chain in the diagram above), ensuring that the LLM responses can be checked for accuracy against the source documents.
 
-### Testing the App on AGLs FY23 TCFD Report
+## TCFD Report Analysis Questions
+In order to analyse the reports I utilised the [TCFD’s disclosure recommendations](https://assets.bbhub.io/company/sites/60/2020/10/FINAL-2017-TCFD-Report-11052018.pdf) (across the four topics of governance, strategy, risk management, and metrics and targets) which were summaried in this [Deliotte article](https://www2.deloitte.com/ch/en/pages/risk/articles/tcfd-and-why-does-it-matter.html) into the following 11 items:
+In governance, companies must:
+•	describe the board’s oversight of climate-related risks and opportunities
+•	describe management’s role in assessing and managing climate-related risks and opportunities
+In strategy:
+•	describe the climate-related risks and opportunities the organisation has identified over the short, medium, and long term
+•	describe the impact of climate-related risks and opportunities on the organisation’s businesses, strategy, and financial planning
+•	describe the resilience of the organisation’s strategy, taking into consideration different climate-related scenarios, including a 2°C or lower scenario.
+In risk management:
+•	describe the organisation’s processes for identifying and assessing climate-related risks
+•	describe the organisation’s processes for managing climate-related risks
+•	describe how processes for identifying, assessing, and managing climate-related risks are integrated into the organisation’s overall risk management.
+In metrics and targets:
+•	disclose the metrics used by the organisation to assess climate-related risks and opportunities in line with its strategy and risk management process
+•	disclose Scope 1, Scope 2, and, if appropriate, Scope 3 greenhouse gas (GHG) emissions, and the related risks
+•	describe the targets used by the organisation to manage climate-related risks and opportunities and performance against targets.
+
+![image](https://github.com/WIVIV/TCFD_Local_LLM/assets/22553721/eb349ad1-97b5-4f42-86b1-f84882d23efd)
+
+
+the TCFD recommendations 
+
+### Testing the App on AGL's FY23 TCFD Report
 To practially test the application I used AGL's FY23 TCFD Report. [AGL is Australia's largest Scope 1 emitter](https://www.cleanenergyregulator.gov.au/NGER/National%20greenhouse%20and%20energy%20reporting%20data/Data-highlights/2021-22-published-data-highlights) (Scope 1 greenhouse gas emissions are the emissions released to the atmosphere as a direct result of an activity).
 
 [<img width="200px" src="./Assets/Images/AGL_TCFD_Report.png" />](https://www.agl.com.au/content/dam/digital/agl/documents/about-agl/investors/2023/230810-agl-energy-tcfd-report-2023-5-5.pdf])
 
-#### TCFD Web App - UI
+#### TCFD Web App - Responses to the first 
 ![Example Image](./Assets/Images/TCFD_Demo_1.png)
 
 #### TCFD Web App - 11 Questions
