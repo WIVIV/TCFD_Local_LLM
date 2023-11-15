@@ -20,7 +20,7 @@ In order to determine the questions used to analyse the reports I utilised the [
 ![image](https://github.com/WIVIV/TCFD_Local_LLM/assets/22553721/eb349ad1-97b5-4f42-86b1-f84882d23efd)
 
 ### Testing the App on AGL's FY23 TCFD Report
-To practially test the app I used AGL's FY23 TCFD Report. [AGL is Australia's largest Scope 1 emitter](https://www.cleanenergyregulator.gov.au/NGER/National%20greenhouse%20and%20energy%20reporting%20data/Data-highlights/2021-22-published-data-highlights) (Scope 1 greenhouse gas emissions are the emissions released to the atmosphere as a direct result of an activity).
+To practially test the app I used AGL's FY23 TCFD Report. AGL is Australia's largest Scope 1 emitter (Scope 1 greenhouse gas emissions are the emissions released to the atmosphere as a direct result of an activity).
 
 [<img width="200px" src="./Assets/Images/AGL_TCFD_Report.png" />](https://www.agl.com.au/content/dam/digital/agl/documents/about-agl/investors/2023/230810-agl-energy-tcfd-report-2023-5-5.pdf)
 
